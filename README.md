@@ -30,8 +30,14 @@ In order to create a modern-looking money manager app, I needed to first create 
 - `updateBudget:` Updates the budget to the UI.
 - `updatePercentages:` Updates the percentages to the UI.
 
+<p align="center">
+  <img width="800" height="500" src="/img/example.png">
+</p>
+
 ## Example Output
 
-
+<p align="center">
+  <img width="800" height="500" src="/img/example.png">
+</p>
 
 

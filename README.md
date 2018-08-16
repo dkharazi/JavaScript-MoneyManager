@@ -16,7 +16,7 @@ In order to create a modern-looking money manager app, I needed to first create 
 ## Architecture
 
 <p align="center">
-  <img width="400" height="250" src="/img/arch.png">
+  <img width="500" height="312" src="/img/arch.png">
 </p>
 
 - `addItem:` Adds an item to the list of expenses or income behind the scenes.

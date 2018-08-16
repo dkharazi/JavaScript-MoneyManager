@@ -19,8 +19,10 @@ Budget Controller:
 - getBudget
 
 App Controller:
-- ctrlAddItem (click keypress)
+- ctrlAddItem (click/keypress)
 - updateBudget
+- updatePercentages
+- ctrlDeleteItem (click)
 
 - init
 - setupEventListeners

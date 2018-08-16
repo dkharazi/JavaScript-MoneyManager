@@ -6,12 +6,12 @@ Everyone wants to budget their money better, and with the growing number of mone
 
 In order to create a modern-looking money manager app, I needed to first create a step-by-step plan to create an app that supports all of the primary features. Once I created a plan, I then needed to architect the necessary UI and server controllers. I've included the steps below for a reference.
 
-1. Create an even handler
-2. Get input values
-3. Add the new item to our data structure
-4. Add the new item to the UI
-5. Calculate the budget
-6. Update the UI
+  1. Create an even handler
+  2. Get input values
+  3. Add the new item to our data structure
+  4. Add the new item to the UI
+  5. Calculate the budget
+  6. Update the UI
 
 ## Example Output
 

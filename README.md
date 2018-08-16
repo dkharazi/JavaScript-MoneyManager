@@ -2,7 +2,7 @@
 
 Everyone wants to budget their money better. And with the growing number of money manager apps being released, it seems that the tech world has taken notice. Some of these apps are more popular than others because they offer a variety of in-depth analytical features. However, all of these apps seem to offer the same fundamental features involving adding income and subtracting salaries. As a result, I've created a sleek, simple app that fulfills the most necessary tasks that are supported by any money manger app.
 
-## Example Output
+## Example Display
 
 <p align="center">
   <img width="800" height="500" src="/img/example.png">

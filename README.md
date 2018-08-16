@@ -15,6 +15,10 @@ In order to create a modern-looking money manager app, I needed to first create 
   
 ## Architecture
 
+<p align="center">
+  <img width="400" height="250" src="/img/arch.png">
+</p>
+
 - `addItem:` Adds an item to the list of expenses or income behind the scenes.
 - `calculateBudget:` Calculates the budget behind the scenes.
 - `calculateTotal:` Calculates the total behind the scenes.
@@ -29,10 +33,6 @@ In order to create a modern-looking money manager app, I needed to first create 
 - `setupEventListeners:` Sets up any event listeners.
 - `updateBudget:` Updates the budget to the UI.
 - `updatePercentages:` Updates the percentages to the UI.
-
-<p align="center">
-  <img width="800" height="500" src="/img/arch.png">
-</p>
 
 ## Example Output
 

@@ -12,34 +12,26 @@ In order to create a modern-looking money manager app, I needed to first create 
   4. Add the new item to the UI
   5. Calculate the budget
   6. Update the UI
+  
+## Architecture
+
+- `addItem:` Adds an item to the list of expenses or income behind the scenes.
+- `calculateBudget:` Calculates the budget behind the scenes.
+- `calculateTotal:` Calculates the total behind the scenes.
+- `clearFields:` Clears any text from the fields from the UI when necessary.
+- `ctrlAddItem:` Adds an item to the UI once a mouse or keyboard click has been received.
+- `ctrlDeleteItem:` Deletes an item from the UI once a mouse click has been received.
+- `displayBudget:` Displays the budget to the UI on startup.
+- `getDOMstrings:` A helper method that saves all of the DOMS.
+- `getBudget:` Calculates the total behind the scenes.
+- `getInput:` Gets any input from the event listeners.
+- `init:` Initializes the app.
+- `setupEventListeners:` Sets up any event listeners.
+- `updateBudget:` Updates the budget to the UI.
+- `updatePercentages:` Updates the percentages to the UI.
 
 ## Example Output
 
-Whether you need something that actually pays your bills for you or simply lets you know when your bank account is running dry, the solution is on this list. Bonus: Many of these tools are free.
 
-## Architecture
-
-Budget Controller:
-- addItem
-- calculateBudget
-- calculateTotal
-- getBudget
-
-App Controller:
-- ctrlAddItem (click/keypress)
-- updateBudget
-- updatePercentages
-- ctrlDeleteItem (click)
-
-- init
-- setupEventListeners
-
-UI Controller:
-- getInput
-- addListItem
-- clearFields
-- displayBudget
-
-- getDOMstrings
 
 
